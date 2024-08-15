@@ -1,0 +1,65 @@
+/*  importacoes de fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+
+    font-family: 'TituloApresentacao'; 
+    src: url('../../Fontes__baixadas/BodoniflfBold-MVZx.ttf') format('truetype'); 
+
+}
+
+@font-face {
+
+    font-family: 'TextoApresentacao'; 
+    src: url('../../Fontes__baixadas/SteinerLight-JR1o.ttf') format('truetype'); 
+
+}
+
+/* _______________________________________________________________________________________ */
+
+:root {
+    
+    /* cores */
+
+    --corPagina: #131313;
+
+    --corPrincipal-02: #222222;
+    --corPrincipal-03: #353535;
+    --corPrincipal-04: #33363d;
+
+    --corGradiente-01: linear-gradient(to bottom, #FFB400, #FFD980);
+
+    --corSecundaria-01: #ffb400;
+    --corSecundaria-02: #0068ed;
+    --corSecundaria-03: #d6dbe9;
+    --corSecundaria-04: #2a3142;
+
+    --corSecundaria-garafa-titulo-01: #63351e;
+    --corSecundaria-garafa-texto-01: #bfb7a4;
+    --corSecundaria-garafa-destaque-01: #a78d2c;
+    
+    --corSecundaria-garafa-titulo-02:  #7e868f;
+    --corSecundaria-garafa-texto-02:   #444749;
+    --corSecundaria-garafa-destaque-02: #8c99a5;
+
+    --corSecundaria-garafa-titulo-03:  #0b131a;
+    --corSecundaria-garafa-texto-03:   #82a6ac;
+    --corSecundaria-garafa-destaque-03: #8c99a5;
+
+    --corSecundaria-garafa-titulo-04:  #261c11;
+    --corSecundaria-garafa-texto-04:   #639e79;
+    --corSecundaria-garafa-destaque-04: #df723d;
+
+
+    /* fontes */
+   
+    --fontePrincipal: "Kanit", sans-serif;
+   
+}
+
+
+
+
+
+

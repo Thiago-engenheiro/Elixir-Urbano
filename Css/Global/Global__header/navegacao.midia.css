@@ -1,0 +1,42 @@
+@media (min-width: 720px ) { 
+    
+    .navegacao__carrinho {
+
+        width: 150px;
+    
+    }
+    
+}
+
+@media (min-width: 1300px ) { 
+
+    .navegacao__menu.esconder {
+
+        display: flex;
+
+    }
+
+    .menu__intens {
+
+        width: 150px;
+
+    }
+
+}
+
+@media (min-width: 1800px ) { 
+
+    .menu__intens {
+
+        width: 200px;
+
+    }
+
+    .navegacao__carrinho {
+
+        width: 200px;
+    
+    }
+    
+}
+

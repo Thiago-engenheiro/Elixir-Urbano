@@ -1,0 +1,42 @@
+@media (min-width: 1000px ) { 
+
+    .icones__usuario {
+
+        margin: 0px 0px 0px 45px ;
+        
+    }
+
+    .icones__usuario img {
+
+        margin: 0px 0px 0px -35px ;
+    }
+    
+}
+
+@media (min-width: 1800px ) { 
+
+    .acoes__icones {
+
+        margin: 25px 0px 0px 0px;
+    
+    }
+
+    .icones__notificacao {
+
+        margin: 0px 0px 0px -45px ;
+        
+    }
+    
+    .icones__usuario  {
+    
+        margin: 0px 20px 0px 55px ;
+
+    }
+
+    .icones__logotipo {
+
+        display: none;
+
+    }
+   
+}

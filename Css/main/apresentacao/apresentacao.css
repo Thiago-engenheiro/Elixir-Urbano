@@ -1,0 +1,21 @@
+.apresentacao__menssagemProvocativa {
+
+    margin: 0px 0px 150px 0px;
+    font-family: 'TituloApresentacao', sans-serif;
+    color: var(--corSecundaria-garafa-destaque-01);
+    font-size: 1.5em;
+
+}
+
+.apresentacao__garrafas {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.garrafas__imagem {
+
+    width: 325px;
+
+}

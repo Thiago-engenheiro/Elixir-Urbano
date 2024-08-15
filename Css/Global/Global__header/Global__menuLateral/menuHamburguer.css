@@ -1,0 +1,161 @@
+.menu__hamburguerExpandido {
+
+    position: absolute;
+    right: 200%;
+    border-radius: 0.8rem;
+    border: 0.2rem solid var(--corSecundaria-01);
+    
+    background: rgba(19, 19, 19, 0.8); 
+    background: linear-gradient(rgba(19, 19, 19, 0.8), rgba(51, 54, 61, 0.8));
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    gap: 10px;
+    font-family: var(--fontePrincipal);
+    
+    visibility: hidden; 
+    opacity: 0; 
+    transform: scale(0); 
+    transform-origin: top right; 
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease; 
+
+}
+
+.menu.opened .menu__hamburguerExpandido {
+
+    display: flex;
+    visibility: visible; 
+    opacity: 1; 
+    transform: scale(1); 
+
+}
+
+.expandido__selecoes {
+
+    display: flex;
+    gap: 15px;
+
+}
+
+.menu.closed .menu__hamburguerExpandido {
+
+    visibility: hidden; 
+    opacity: 0; 
+    transform: scale(0); 
+
+}
+
+.hamburguerExpandido__idioma {
+
+    position: relative;
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.intens__seta {
+
+    width: 15px;
+    margin: 0px 25px 0px 15px;
+    transition: transform 0.3s ease;
+    transform: rotate(90deg);
+
+}
+
+#menu__idioma:checked + .idioma__intens .intens__seta {
+
+    transform: rotate(90deg);
+    transform: rotate(-90deg);
+
+}
+
+.idioma__intens {
+
+    gap: 15px;
+
+}
+
+.checkbox__botao {
+
+    position: absolute;
+    visibility: hidden;
+
+}
+
+
+.alternar {
+
+    cursor: pointer;
+    display: inline-block;
+    pointer-events: all;
+
+}
+
+.alternar-escolha {
+
+    display: inline-block;
+    background: #ccc;
+    border-radius: 1.6rem;
+    width: 2.9rem;
+    height: 1.6rem;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+
+}
+
+.alternar-escolha:before, .alternar-escolha:after {
+
+    content: "";
+
+}
+
+.alternar-escolha:before {
+
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    transition: left 0.25s;
+
+}
+
+.alternar:hover .alternar-escolha:before {
+
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+
+}
+
+.alternar-selecao:checked + .alternar-escolha {
+
+    background: var(--corSecundaria-02);
+
+}
+
+.alternar-selecao:checked + .alternar-escolha:before {
+
+    left: 1.5rem;
+
+}
+
+.alternar-selecao {
+
+    position: absolute;
+    visibility: hidden;
+
+}
+
+

@@ -1,0 +1,12 @@
+.cabecalho {
+
+    margin: 0px 0px 100px 0px;
+}
+
+.cabecalho__acoes {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

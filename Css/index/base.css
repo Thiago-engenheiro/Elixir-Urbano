@@ -33,8 +33,11 @@
     color: white;
     margin: 15px 15px 0px 15px;
     background: var(--corPagina);
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
     font-family: var(--fontePrincipal);
-
+    
+    
 }
 
 @media (min-width: 720px ) { 

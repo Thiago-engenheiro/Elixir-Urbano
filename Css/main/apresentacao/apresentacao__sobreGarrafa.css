@@ -16,54 +16,235 @@
     top: 1%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    text-align: start;
 
     background: var(--corSecundaria-03);
     border: 0.1rem solid var(--corSecundaria-garafa-titulo-01);
-    font-family: 'TextoApresentacao', sans-serif;
     border-radius: 10px;
     color: black;
     font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-
-
-    
-
-   
-    
 
     padding: 15px;
     width: 200px;
-    height: 150px;
+    height: 110px;
     gap: 20px;
     z-index: 10;
+    border: 0.01rem solid var(--corSecundaria-03);
     
+}
+
+.cardInformativoProducao__ilustração {
+
+    width: 30px;
+    position: absolute;
+    top: -45%;
+    left: 45%;
+    
+}
+
+.cardInformativoProducao__titulo {
+
+    margin: 30px 0px 0px 0px;
+
 }
 
 .cardInformativoProducao__miniCardProducao {
 
-   
    width: 200px;
    height: 30px;
-   background: var(--corSecundaria-04);
+   background: var(--corPrincipal-03);
 
    backdrop-filter: blur(10px); 
    -webkit-backdrop-filter: blur(10px); 
    border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 15px;
+    padding: 15px 15px 25px 15px;
+    border: 0.01rem solid var(--corSecundaria-03);
+  
+
 
 }
 
 .miniCardProducao__texto {
 
-    background: var(--corSecundaria-04);
+    
+    background: var(--corPrincipal-02);
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 15px;
+    padding: 13px;
+    margin: 5px 0px 0px 0px;
     
 
 }
+
+.container {
+
+    position: relative;
+    width: 200px; /* Largura da linha horizontal */
+    height: 200px; /* Altura da linha vertical */
+
+}
+
+.container__02 {
+
+    position: relative;
+    width: 20px; /* Largura da linha horizontal */
+    height: 200px; /* Altura da linha vertical */
+
+}
+.vertical-line, .horizontal-line {
+
+    position: absolute;
+    background: linear-gradient(to bottom, white, gray, white);
+
+}
+.vertical-line {
+
+    width: 2px; /* Largura da linha vertical */
+    height: 80%; /* Altura da linha vertical */
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, white, gray, white);
+
+}
+.horizontal-line {
+
+    width: 208%; /* Largura da linha horizontal */
+    height: 2px; /* Altura da linha horizontal */
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    background: gray ;
+
+}
+
+.apresentacao__informativoNutricional {
+
+    background: var(--corPrincipal-03);
+    backdrop-filter: blur(10px); 
+   -webkit-backdrop-filter: blur(10px); 
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 0.01rem solid var(--corSecundaria-03);
+    width: 200px;
+  
+
+}
+
+.informativoNutricional__titulo {
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+
+.informativoNutricional__ilustração {
+
+    position: absolute;
+    width: 50px;
+    right: 0%;
+    top: 0%;
+    
+
+
+}
+
+.informativoNutricional__texto {
+
+    width: 80%;
+
+}
+
+.sobreEmpresa__menssagemProvocativa {
+
+    width: 1150px;
+    font-size: 100px;
+    text-align: left;
+    font-family: var(--fontePrincipal);
+    font-family: 'TituloApresentacao', sans-serif;
+
+}
+
+.menssagemProvocativa__destaque {
+
+    color: var(--corSecundaria-01);
+
+}
+
+.sobreEmpresa__fisgar {
+
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    gap: 40px;
+    align-items: center;
+
+
+}
+
+.fisgar__linkChamativo {
+ 
+
+    background: var(--corSecundaria-01);
+    border-radius: 10px;
+    width: 200px;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-family: var(--fontePrincipal);
+    padding: 25px 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.fisgar__linkChamativo:hover {
+ 
+    color: white;
+    background: var(--corSecundaria-02);
+   
+}
+
+.fisgar__linha {
+
+    width: 1%; /* Largura da linha horizontal */
+    height: 1px; /* Altura da linha horizontal */
+    width: 1px; /* Largura da linha vertical */
+    height: 35%; /* Altura da linha vertical */
+    transform: translateX(-50%);
+    background: gray;
+    margin: 65px 0px 0px 0px;
+
+
+}
+
+.fisgar__nota {
+
+    margin: 20px 0px 0px 0px;
+
+}
+
+.nota__texto {
+
+    font-size: 25px;
+
+}
+
+.nota__estrelas {
+
+    width: 150px;
+
+}
+
+
+
+
+

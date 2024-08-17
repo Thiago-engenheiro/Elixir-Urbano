@@ -16,6 +16,11 @@
 
     }
 
+    .navegacao__caixa__de__pesquisa.esconder  {
+
+        display: flex;
+
+    }
     .menu__intens {
 
         width: 150px;

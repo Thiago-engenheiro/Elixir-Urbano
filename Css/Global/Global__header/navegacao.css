@@ -95,4 +95,46 @@
 
 }
 
+.navegacao__caixa__de__pesquisa {
 
+    margin: 10px 0px 0px 0px;
+    background: transparent;
+    border-radius: 10px;
+    border: 0.03rem solid white;
+
+}
+
+.caixa__de__pesquisa__caixa {
+
+    background: transparent;
+    border: none;
+    padding: 15px 100px;
+    text-align: start;
+
+}
+
+.caixa__de__pesquisa__caixa:focus {
+
+    color: white;
+    outline: none;
+    
+}
+
+.caixa__de__pesquisa__caixa::placeholder {
+
+    color: white;
+    font-family: var(--fontePrincipal);
+    font-size: 15px;
+    
+}
+
+.caixa__de__pesquisa__imagem {
+
+    position: relative;
+    top: 10px;
+    right: 20px;
+    width: 25px;
+    height: 25px;
+    transform: rotate(90deg);
+
+}

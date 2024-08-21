@@ -1,0 +1,66 @@
+@media (max-width: 1800px ) { 
+
+    .garrafas__imagens {
+
+        display: flex;
+        margin: 0px auto 150px auto;
+        order: 1;
+        
+    }
+    
+    .garrafas__imagem {
+    
+        width: 300px;
+        height: 850px;
+        margin: 0px 0px 0px 0px;
+       
+    }
+ 
+}
+
+@media (max-width: 1300px ) { 
+
+    .garrafas__imagem {
+    
+        width: 300px;
+        height: 850px;
+        margin: 0px 0px 0px 0px;
+       
+    }
+ 
+}
+
+@media (max-width: 1000px ) { 
+    
+    .garrafas__imagem {
+    
+        width: 250px;
+        height: 800px;
+        margin: 0px 0px 0px 0px;
+       
+    }
+ 
+}
+
+@media (max-width: 720px ) { 
+
+    .garrafas__imagem {
+    
+        width: 200px;
+        height: 500px;
+       
+    }
+ 
+
+}
+
+@media (max-width: 350px ) { 
+    
+    .garrafas__imagem {
+    
+        width: 150px;  
+    
+    } 
+
+}
+

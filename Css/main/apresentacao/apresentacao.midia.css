@@ -1,0 +1,79 @@
+@media (max-width: 1800px ) { 
+
+    .apresentacao__garrafas {
+
+        flex-direction: column;
+       
+    }
+   
+    .apresentacao__menssagemProvocativa {
+
+        position: absolute;
+        margin: 0px 0px 0px 0px;
+        font-size: 2.5em;
+        width: 180px;
+        right: 26%;
+    
+    }
+
+}
+
+@media (max-width: 1300px ) { 
+   
+    .apresentacao__menssagemProvocativa {
+
+        font-size: 2.5em;
+        width: 180px;
+        right: 26%;
+    
+    }
+
+}
+
+@media (max-width: 1000px ) { 
+   
+    .apresentacao__menssagemProvocativa {
+
+        font-size: 1.5em;
+        width: 150px;
+        right: 20%;
+    
+    }
+
+}
+
+@media (max-width: 720px ) { 
+
+    .apresentacao__menssagemProvocativa {
+
+        font-size: 1.2em;
+        width: 100px;
+    
+    }
+
+    .apresentacao__menssagemProvocativa {
+
+        right: 5%;
+    
+    }
+    
+}
+
+@media (max-width: 350px ) { 
+    
+    .apresentacao__menssagemProvocativa {
+
+        font-size: 0.8em;
+        width: 70px;
+    
+    }
+
+    .apresentacao__menssagemProvocativa {
+
+        right: 3%;
+    
+    }
+    
+}
+
+

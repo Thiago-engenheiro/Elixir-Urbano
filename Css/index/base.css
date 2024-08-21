@@ -12,15 +12,24 @@
 @import url("../Global/Global__header/icones.midia.css");
 
 @import url("../Global/Global__header/Global__menuLateral/menuLateral.css");
+@import url("../Global/Global__header/Global__menuLateral/botoes.css");
+
 @import url("../Global/Global__header/Global__menuLateral/menuHamburguer.css");
 @import url("../Global/Global__header/Global__menuLateral/menuHamburguer.02.css");
-
 
 /*  importacoes de estilo do main  */
 
 @import url("../main/apresentacao/apresentacao.css");
-@import url("../main/apresentacao/apresentacao__sobreGarrafa.css");
+@import url("../main/apresentacao/apresentacao.midia.css");
 
+@import url("../main/apresentacao/apresentacao__sobreGarrafa.css");
+@import url("../main/apresentacao/apresentacao__sobreGarrafa.midia.css");
+
+@import url("../main/apresentacao/apresentacao__garrafa.css");
+@import url("../main/apresentacao/apresentacao__garrafa.midia.css");
+
+@import url("../main/apresentacao/apresentacao__sobreEmpresa.css");
+@import url("../main/apresentacao/apresentacao__sobreEmpresa.midia.css");
 /*  importacoes de estilo do footer */
 
 /* Todo o conteudo da pagina  */
@@ -36,7 +45,7 @@
     background-repeat: no-repeat; /* Evita a repetição da imagem */
     background-size: cover; /* Ajusta a imagem para cobrir o elemento */
     font-family: var(--fontePrincipal);
-    
+
     
 }
 

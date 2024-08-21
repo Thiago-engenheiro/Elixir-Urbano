@@ -1,0 +1,112 @@
+@media (max-width: 1800px ) { 
+
+    .garrafas__sobreGarrafa {
+
+        flex-direction: row;
+        gap: 50px;
+        margin: auto;
+ 
+    }
+
+    .cardInformativoProducao__miniCardProducao {
+    
+        display: none;
+
+    }
+
+    .garrafas__sobreGarrafa {
+
+        order: 2;
+       
+    }
+
+    .container {
+
+        display: none;
+
+    }
+
+    .sobreGarrafa__cardInformativoProducao {
+
+        height: 130px;
+        width: 350px;
+        font-size: 20px;
+        
+    }
+
+}
+
+@media (max-width: 1300px ) { 
+
+    .garrafas__sobreGarrafa {
+
+        flex-direction: row;
+        gap: 50px;
+        margin: auto;
+ 
+    }
+
+    .cardInformativoProducao__miniCardProducao {
+    
+        display: none;
+
+    }
+
+    .garrafas__sobreGarrafa {
+
+        order: 2;
+       
+    }
+
+    .container {
+
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 1000px ) { 
+
+    .sobreGarrafa__cardInformativoProducao {
+
+        width: 200px;
+        height: 110px;
+        font-size: 15px;
+        
+    }
+
+}
+
+@media (max-width: 720px ) { 
+
+    .garrafas__sobreGarrafa {
+
+        flex-direction: column;
+       
+    }
+
+    .garrafas__sobreGarrafa {
+
+        order: 2;
+       
+    }
+
+    .container {
+
+        display: none;
+
+
+    }
+
+    .sobreGarrafa__cardInformativoProducao {
+
+        width: 200px;
+        height: 110px;
+        font-size: 15px;
+        
+    }
+
+}
+
+

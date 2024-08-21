@@ -3,7 +3,8 @@
     margin: 0px 0px 150px 0px;
     font-family: 'TituloApresentacao', sans-serif;
     color: var(--corSecundaria-garafa-destaque-01);
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 110px;
 
 }
 
@@ -11,13 +12,4 @@
 
     display: flex;
    
-
-}
-
-.garrafas__imagem {
-
-    width: 325px;
-    margin: 0px 250px 0px 293px;
-    
-
 }

@@ -1,0 +1,204 @@
+@media (max-width: 1800px ) { 
+   .garrafas__sobreEmpresa{
+
+      order: 3;
+
+   }
+ 
+   .sobreEmpresa__menssagemProvocativa {
+
+      font-size: 40px;
+      text-align: center;
+      width: 800px;
+      margin: auto;
+    
+   }
+
+   .sobreEmpresa__fisgar {
+
+      flex-direction: column;
+      margin: 100px 0px 0px 0px;
+      gap: 40px;
+      align-items: center;
+
+
+   }
+
+   .container__02 {
+
+      display: none;
+  
+  
+   }
+
+   .apresentacao__informativoNutricional {
+
+      margin: 30px 0px 30px 0px;
+      height: 130px;
+      width: 350px;
+    
+  
+   }
+
+   .informativoNutricional__titulo {
+
+      font-size: 35px;
+  
+  }
+  
+  
+  .informativoNutricional__texto {
+  
+      width: 80%;
+      font-size: 25px;
+  
+  }
+
+   .sobreEmpresa__fisgar {
+
+      margin: 50px 0px 0px 0px;
+      gap: 0px;
+      
+
+   }
+
+   
+   .fisgar__linkChamativo {
+
+      width: 200px;
+      
+   }
+         
+}
+
+
+
+@media (max-width: 1000px ) { 
+
+   .garrafas__sobreEmpresa{
+
+      order: 3;
+
+   }
+
+   .sobreEmpresa__menssagemProvocativa {
+
+      font-size: 38px;
+      text-align: center;
+      width: 535px;
+      margin: auto;
+    
+   }
+
+   .sobreEmpresa__fisgar {
+
+      flex-direction: column;
+      margin: 100px 0px 0px 0px;
+      gap: 40px;
+      align-items: center;
+
+
+   }
+
+   .container__02 {
+
+      display: none;
+  
+  
+   }
+
+   .apresentacao__informativoNutricional {
+
+      margin: 30px 0px 30px 0px;
+      height: 110px;
+    
+  
+   }
+
+   .sobreEmpresa__fisgar {
+
+      margin: 50px 0px 0px 0px;
+      gap: 0px;
+      
+
+   }
+
+   
+   .fisgar__linkChamativo {
+
+      width: 200px;
+      
+   }
+
+   .informativoNutricional__titulo {
+
+      font-size: 23px;
+  
+  }
+  
+  
+  .informativoNutricional__texto {
+  
+      width: 90%;
+      font-size: 18px;
+  
+  }
+
+   .apresentacao__informativoNutricional {
+
+      width: 200px;
+      height: 115px;
+    
+  
+   }
+
+}
+
+
+@media (max-width: 720px ) { 
+
+   .apresentacao__informativoNutricional {
+
+      margin: 25px 0px 30px 0px;
+    
+  
+   }
+
+   .sobreEmpresa__menssagemProvocativa {
+
+      font-size: 20px;
+      width: 250px;
+    
+   }
+
+   .fisgar__linkChamativo {
+
+      width: 150px;
+      
+   }
+
+   .apresentacao__informativoNutricional {
+
+      width: 150px;
+      height: 110px;
+    
+  
+   }
+
+   .informativoNutricional__titulo {
+
+      font-size: 20px;
+  
+  }
+  
+  
+  .informativoNutricional__texto {
+  
+      width: 80%;
+      font-size: 15px;
+  
+  }
+      
+}
+
+

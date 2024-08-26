@@ -1,0 +1,217 @@
+/* Esse trecho de codigo foi tirado do canal DesignTorch e um radar com animação do video "Radar Animation Pure CSS */
+
+/* ------------------------------------------ Autor: DesignTorch  ------------------------------------------------- */
+
+.cardMapa__radar {
+
+    position: relative;
+    top: 5%;
+    width: 220px;
+    height: 220px;
+    aspect-ratio: 1 / 1;
+    background: linear-gradient(180deg, #030C37 0%, #2D3643 100%);
+
+   
+    border-radius: 50%;
+}
+
+.cardMapa__radar::before {
+
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: linear-gradient(180deg, rgba(3, 12, 55, 0.7) 0%, rgba(45, 54, 67, 0.7) 100%);
+    border-radius: inherit;
+    filter: blur(1px);
+
+}
+
+.cardMapa__radar::after {
+
+    content: "";
+    position: absolute;
+    inset: 23px;
+    background: linear-gradient(180deg, rgba(45, 54, 67, 0.8) 5%, rgba(200, 200, 255, 0.4) 95%);
+    border-radius: inherit;
+    filter: blur(2px);
+
+}
+
+.radar__highlight {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: rotate 3.5s linear infinite;
+
+}
+
+.radar__highlight::before {
+
+   content: "";
+   position: absolute;
+   top: 90%;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 300px;
+   height: 50%;
+   background: linear-gradient(180deg, rgba(0, 104, 237, 0.7) 0%, rgba(255, 255, 255, 0.5) 100%);
+   filter: blur(30px);
+   opacity: 1;
+
+}
+
+.radar__inner {
+
+    width: 190px;
+    aspect-ratio: 1 / 1;
+    background-color: #030C37;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    z-index: 9;
+
+}
+
+.inner__circleLines {
+
+    position: absolute;
+    inset: 0;
+    opacity: 0.2;
+
+}
+
+.inner__circleLines .circleLines__imagem {
+
+    width: 42px;
+    position: absolute;
+    left: 40px;
+    bottom: 30px;
+    z-index: 1;
+
+}
+
+.inner__circleLines .circleLines__cirle {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: calc(38px *var(--index) );
+    height: calc(38px *var(--index) );
+
+
+}
+
+.inner__circleLines .circleLines__line {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+}
+
+.inner__circleLines .horizontal {
+
+    width: 100%;
+    height: 2px;
+
+}
+
+.inner__circleLines .vertical {
+
+    width: 2px;
+    height: 100%;
+
+}
+
+.inner__gradient {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Garante que nada saia do contêiner */
+
+}
+
+.inner__gradient div {
+   
+    position: absolute;
+    inset: 0;
+    background-image: url(../../../Imagens/NoCodigo/Main/radar/radarCor.png);
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem no elemento */
+    
+    mix-blend-mode: soft-light;
+    transform-origin: center; /* Define o ponto de origem da rotação */
+ 
+
+    animation: rotate__2 3.5s linear infinite; /* Animação de rotação */
+
+}
+.inner__gradient div:nth-child(2) {
+
+   mix-blend-mode: darken;
+
+}
+
+.inner__gradient div:nth-child(3) {
+
+    mix-blend-mode: normal;
+    opacity: 0.18;
+ 
+}
+
+.inner__gradient div:nth-child(4),
+.inner__gradient div:nth-child(5)  {
+
+    mix-blend-mode: darken;
+ 
+}
+
+.inner__gradient div:nth-child(6)  {
+
+    mix-blend-mode: darken;
+ 
+}
+
+/* Animação de rotação */
+
+@keyframes rotate {
+
+    0% {
+
+        transform: rotate(0deg); /* Inclui a rotação inicial */
+
+    }
+
+    100% {
+
+        transform: rotate(360deg); /* 360 graus de rotação mais os 90 graus iniciais */
+
+    }
+
+}
+
+@keyframes rotate__2 {
+
+    0% {
+
+        transform: rotate(90deg) ; /* Aplica a rotação inicial de 90 graus */
+
+    }
+    100% {
+
+        transform: rotate(450deg); /* 360 graus de rotação adicional mais os 90 graus iniciais */
+
+    }
+}

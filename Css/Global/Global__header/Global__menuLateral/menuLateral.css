@@ -4,6 +4,11 @@
 
         background: var(--corGradiente-01);
         height: 100%;
+        width: 150px;
+        position: fixed; /* Mantém o menu fixo na tela */
+        top: 0; /* Alinha ao topo da página */
+        right: 0; /* Alinha ao lado esquerdo da página */
+        
     }
 
     .menuLateral.esconder {
@@ -99,7 +104,7 @@
 
         display: flex;
         flex-direction: column;
-        margin: 125px 0px 50px 0px;
+        margin: 55px 0px 50px 0px;
         
     }
 
@@ -135,8 +140,7 @@
 
         display: flex;
         flex-direction: column;
-        margin: 125px 0px 50px -25%;
-        
+        margin: 700px 0px 50px -25%;
 
     }
 
@@ -148,7 +152,6 @@
         cursor: pointer; 
         margin: 0px 0px 0px 20%;
 
-
     }
 
     .setas__descer {
@@ -158,7 +161,6 @@
         padding: 0; 
         cursor: pointer; 
         margin: 0px 0px 0px 20%;
-
 
     }
 

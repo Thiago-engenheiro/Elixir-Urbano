@@ -71,13 +71,6 @@
 
 }
 
-#menu__idioma:checked + .idioma__intens .intens__seta {
-
-    transform: rotate(90deg);
-    transform: rotate(-90deg);
-
-}
-
 .idioma__intens {
 
     gap: 15px;

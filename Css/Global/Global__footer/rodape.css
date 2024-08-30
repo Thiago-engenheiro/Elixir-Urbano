@@ -1,0 +1,101 @@
+.rodape {
+
+    display: flex;
+    justify-content: space-between;
+    background: #0a0a0a;
+    margin: 0;
+    padding: 50px 150px;
+    margin: 0px 0px 100px 0px;
+    align-items: center;
+    
+
+}
+
+.rodape__apresentacao {
+
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+.rodape__apresentacao__logo {
+
+    width: 100px;
+
+}
+
+.rodape__apresentacao__titulo {
+
+    font-size: 40px;
+
+}
+
+.rodape__apresentacao__inscrever {
+
+    font-family: var(--fontePrincipal);
+    font-size: 16px;
+    padding: 8px ;
+    width: 200px;
+    border-radius: 10px;
+    
+
+}
+
+.rodape__apresentacao__inscrever:hover {
+
+   background: var(--corSecundaria-02);
+   border: none;
+   color: white;
+
+}
+
+.rodape__menu__navegacao {
+
+    display: flex;
+    gap: 150px;
+
+}
+
+.rodape__menu__navegacao__links {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.rodape__navegacao__links__titulo {
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.rodape__navegacao__links__link {
+
+    font-size: 18px;
+
+}
+
+.rodape__endereco {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.rodape__endereco__titulo {
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.rodape__endereco__texto {
+
+    font-size: 18px;
+
+}
+

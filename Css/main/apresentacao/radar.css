@@ -173,8 +173,8 @@
 
 .inner__gradient div:nth-child(2) {
 
-    mix-blend-mode:  color;
-   
+    
+    mix-blend-mode: overlay;
  
 }
  
@@ -188,14 +188,15 @@
  .inner__gradient div:nth-child(4),
  .inner__gradient div:nth-child(5)  {
  
-    mix-blend-mode: color;
   
+    mix-blend-mode: overlay;
   
  }
  
  .inner__gradient div:nth-child(6)  {
  
-    mix-blend-mode:  color;
+   
+    mix-blend-mode: overlay;
    
   
  }

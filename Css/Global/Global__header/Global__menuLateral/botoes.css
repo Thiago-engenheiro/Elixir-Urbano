@@ -3,6 +3,86 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: fixed;
+    
+}
+
+.corpo__alternar {
+
+    position: fixed;
+    right: 2%;
+    top: 43%;
+
+}
+
+.alternar__seta {
+
+    width: 50px;
+    transition: transform 0.3s ease;
+
+}
+
+.corpo__alternar-selecao {
+
+    display: none;
+
+}
+
+#alternar-esconder:checked ~ .alternar__seta {
+
+    transform: rotate(-180deg); 
+
+}
+
+#alternar-esconder:not(:checked) ~ .alternar__seta {
+
+    transform: rotate(360deg);
+
+}
+
+#alternar-esconder:checked ~ .botoes__corpo,
+#alternar-esconder:checked ~ .botoes__garrafa {
+
+    display: none;
+
+}
+
+.corpo__linha {
+
+    position: absolute;
+    height: 105px;
+    width: 1px;
+    background: white;
+  
+
+    right: 934px;
+    top: 118px;
+
+}
+
+.corpo__linha__02 {
+
+    position: absolute;
+    height: 105px;
+    width: 1px;
+    background: white;
+  
+
+    right: 934px;
+    top: 310px;
+
+}
+
+.corpo__linha__03 {
+
+    position: absolute;
+    height: 105px;
+    width: 1px;
+    background: white;
+  
+
+    right: 934px;
+    top: 510px;
 
 }
 
@@ -17,7 +97,7 @@
     border-radius: 15px 0 0 15px; 
     height: 55px;
     top: 37px;
-
+    
 }
 
 .botoes__garrafa {
@@ -29,8 +109,10 @@
     overflow: hidden;
     background: none;
     border: none;
-
+    transition: opacity 0.5s ease, transform 0.5s ease;
+   
 }
+
 
 .corpo__titulo {
 

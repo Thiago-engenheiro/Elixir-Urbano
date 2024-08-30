@@ -103,7 +103,7 @@
 }
 .horizontal-line {
 
-    width: 208%; /* Largura da linha horizontal */
+    width: 287%; /* Largura da linha horizontal */
     height: 2px; /* Altura da linha horizontal */
     top: 50%;
     left: 50%;
@@ -111,6 +111,23 @@
     background: gray ;
 
 }
+
+.sobreGarrafa__linha {
+
+    width: 600px; /* largura da seta */
+    height: 1px; /* altura da seta */
+    background: linear-gradient(to right, transparent, #cccccc 25%, white 50%, #cccccc 75%, transparent); 
+    margin: 15px auto;
+
+}
+
+.sobreEmpresa__cardInformativo {
+
+    display: flex;
+
+
+}
+
 
 
 

@@ -37,8 +37,8 @@
 
 .sobreEmpresa__menssagemProvocativa {
 
-    width: 1150px;
-    font-size: 100px;
+    width: 1000px;
+    font-size: 80px;
     text-align: left;
     font-family: 'TituloApresentacao', sans-serif;
 
@@ -63,7 +63,6 @@
 .fisgar__linkChamativo {
 
     background: var(--corSecundaria-garafa-destaque-01);
-    
     border-radius: 10px;
     width: 200px;
     justify-content: center;
@@ -117,3 +116,77 @@
 
 }
 
+.sobreEmpresa__cardInformativo {
+
+    margin: 65px 0px 0px 0px;
+
+}
+
+
+.cardInformativo__apresentacao {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 150px;
+
+
+}
+
+.apresentacao__titulo {
+
+    font-size: 50px;
+
+}
+
+.apresentacao__link {
+
+    font-size: 20px;
+    color: var(--corSecundaria-garafa-destaque-01);
+
+}
+
+.apresentacao__link:hover {
+
+    color: var(--corSecundaria-02);
+
+}
+
+.cardInformativo__conteudo {
+    
+    margin: 60px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+
+}
+
+.cardInformativo__conteudo__titulo {
+
+    width: 100%;
+    font-size: 22px;
+
+}
+
+.cardInformativo__conteudo__texto {
+
+    color: gray;
+    width: 75%;
+
+}
+
+.cardInformativo__conteudo__seta {
+
+    position: absolute;
+    top: 67%;
+    right: 9%;
+
+}
+
+.cardInformativo__conteudo__seta__02 {
+
+    position: absolute;
+    right: 9%;
+    top: 77%;
+}

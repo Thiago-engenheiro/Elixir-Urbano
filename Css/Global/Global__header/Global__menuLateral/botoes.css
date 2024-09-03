@@ -100,6 +100,15 @@
     
 }
 
+.corpo__ativo {
+
+    border-top: 0.10rem solid var(--corSecundaria-garafa-destaque-01);
+    border-left: none;
+    border-bottom: 0.10rem solid var(--corSecundaria-garafa-destaque-01);
+    border-right: none;
+
+}
+
 .botoes__garrafa {
 
     position: relative;

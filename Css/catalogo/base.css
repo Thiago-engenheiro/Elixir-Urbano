@@ -1,0 +1,85 @@
+/*  importacoes de estilo  */
+/* _______________________________________________________________________________________ */
+
+/*  importacoes de estilo do header  */
+
+@import url("../Global/Global__header/cabecalho.css");
+
+@import url("../Global/Global__header/navegacao.css");
+@import url("../Global/Global__header/navegacao.midia.css");
+
+@import url("../Global/Global__header/icones.css");
+@import url("../Global/Global__header/icones.midia.css");
+
+@import url("../Global/Global__header/Global__menuLateral/menuLateral.css");
+@import url("../Global/Global__header/Global__menuLateral/botoes.css");
+
+@import url("../Global/Global__header/Global__menuLateral/menuHamburguer.css");
+@import url("../Global/Global__header/Global__menuLateral/menuHamburguer.02.css");
+
+
+/*  importacoes de estilo do main  */
+
+
+
+/*  importacoes de estilo do footer */
+
+/* Todo o conteudo da pagina  */
+
+/* _______________________________________________________________________________________ */
+
+.PaginaInteira {
+
+    text-decoration: none;
+    color: white;
+    margin: 15px 15px 0px 15px;
+    background: var(--corPagina);
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    font-family: var(--fontePrincipal);
+    box-sizing: border-box;
+
+}
+
+@media (min-width: 720px ) { 
+
+    .PaginaInteira {
+
+        margin: 25px 65px 0px 65px;
+
+    }
+
+}
+
+@media (min-width: 1800px ) { 
+
+    .PaginaInteira {
+
+        margin: 0px 0px 0px 65px;
+
+    }
+
+}
+
+.esconder {
+
+    display: none;
+
+}
+
+.invisivel  {
+
+    visibility: hidden;
+
+}
+
+.menuLateral {
+
+    background: var(--corGradiente-01);
+    
+    
+}
+
+
+
+

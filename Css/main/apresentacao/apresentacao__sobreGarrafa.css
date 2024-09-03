@@ -21,7 +21,7 @@
     font-size: 15px;
 
     padding: 15px;
-    width: 200px;
+    width: 220px;
     height: 110px;
     gap: 20px;
     z-index: 10;
@@ -46,7 +46,7 @@
 
 .cardInformativoProducao__miniCardProducao {
 
-   width: 200px;
+    width: 220px;
    height: 30px;
    background: var(--corPrincipal-03);
 

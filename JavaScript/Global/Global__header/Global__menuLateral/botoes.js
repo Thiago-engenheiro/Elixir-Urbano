@@ -36,35 +36,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
         garrafasEsconder.forEach(function(button) {
 
-            button.classList.toggle('esconder');
-
+          button.classList.toggle('esconder');
 
         });
 
         corpoEsconder.forEach(function(button) {
 
-            button.classList.toggle('esconder');
+          button.classList.toggle('esconder');
 
         });
 
         linhaEsconder.forEach(function(button) {
 
-            button.classList.toggle('esconder');
+          button.classList.toggle('esconder');
 
         });
 
         linhaEsconder__02.forEach(function(button) {
 
-            button.classList.toggle('esconder');
+          button.classList.toggle('esconder');
 
         });
 
         linhaEsconder__03.forEach(function(button) {
 
-            button.classList.toggle('esconder');
+          button.classList.toggle('esconder');
 
         });
 
     });
 
 });
+
+

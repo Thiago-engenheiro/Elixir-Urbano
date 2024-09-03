@@ -24,6 +24,8 @@
     text-align: center;
     padding: 19px 15px;
     font-family: var( --fontePrincipal);
+    text-decoration: none;
+    color: white;
 
 }
 

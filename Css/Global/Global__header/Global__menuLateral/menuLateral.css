@@ -2,7 +2,7 @@
 
     .menuLateral {
 
-        background: var(--corGradiente-01);
+        background: #b5ad99;
         height: 100%;
         width: 150px;
         position: fixed; /* Mantém o menu fixo na tela */
@@ -130,7 +130,7 @@
         transform: rotate(0deg); 
         text-align: center; 
         font-family: var(--fontePrincipal);
-        margin: auto;
+        margin: 200px auto -475px auto;
         font-size: 20px;
         color: black;
 

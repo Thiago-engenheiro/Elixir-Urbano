@@ -483,3 +483,218 @@
     }
 
 }
+
+.menuIntens__lista {
+
+    padding: 30px;
+    width: 96%;
+   
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--corPrincipal-04);
+
+}
+
+.menuIntens__lista__intens__botao {
+
+    border-radius: 30px;
+    font-family: var(--fontePrincipal);
+    background: var(--corPrincipal-05);
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 120px;
+
+}
+
+.menuIntens__lista__intens__botao:hover {
+
+    background: var(--corSecundaria-02);
+    
+}
+
+.ConteudoPrincipal--intens {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    margin: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    width: 98.6%;
+}
+
+
+.produtos {
+
+    background: #222222;
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.produtos.mantimentos {
+    grid-row: span 1;
+}
+
+.produtos.doces {
+    grid-column: span 2;
+}
+
+.produtos.bebidas {
+    grid-row: span 2;
+}
+
+/* Mantenha as outras regras específicas de cada produto como estavam */
+
+.produtos.mantimentos .produtos__titulo {
+    font-size: 1.5rem;
+    margin: 300px 0px 70px 0px;
+
+}
+
+.produtos.mantimentos .produtos__texto {
+
+    display: none;
+}
+
+.produtos.doces .produtos__titulo {
+    font-size: 2.5rem;
+}
+
+.produtos__imagem {
+
+    position: absolute;
+    top: 20%;
+
+}
+
+.produtos.mantimentos .produtos__imagem {
+
+    width: 250px;
+}
+
+.produtos.doces .produtos__titulo {
+
+    font-size: 2.5rem;
+    width: 50%;
+    margin: 100px 0px 0px 0px;
+
+}
+
+.produtos.doces .produtos__texto {
+
+    font-size: 1rem;
+    width: 50%;
+    margin: 30px 0px 120px 0px;
+
+}
+
+.produtos.doces .produtos__imagem {
+
+    width: 250px;
+    right: 5%;
+
+}
+
+.produtos.bebidas .produtos__titulo {
+
+    font-size: 2.5rem;
+    width: 100%;
+    margin: 570px 0px 0px 0px;
+
+}
+
+.produtos.bebidas .produtos__texto {
+
+    font-size: 1rem;
+    width: 100%;
+    margin: 30px 0px 125px 0px;
+
+}
+
+.produtos.bebidas .produtos__imagem {
+
+    width: 190px;
+    top: 10%;
+    right: 22%;
+ 
+
+}
+
+.produtos.mantimentos .diminuir__imagem--Elden {
+
+    width: 150px;
+    right: 30%
+
+}
+
+.produtos.mantimentos .diminuir__imagem--poobaz {
+
+    width: 225px
+
+}
+
+
+
+
+/* Remova as definições de largura e altura fixas */
+
+.produtos__chamativo {
+
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.novo {
+
+    background: var(--corSecundaria-01);
+    color: black;
+    width: 50px;
+}
+
+.promocao {
+
+    background: #3EF000;
+    width: 85px;
+    color: black;
+   
+
+}
+
+.destaque {
+
+    background: #F01601;
+    width: 85px;
+    color: black;
+
+}
+
+.produtos__realizarCompra {
+    display: flex;
+    gap: 5px;
+}
+
+.produtos__realizarCompra__botaoDeComprar {
+    background: var(--corSecundaria-02);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: var(--fontePrincipal);
+}
+
+.produtos__realizarCompra__valor {
+    background: #383838;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}

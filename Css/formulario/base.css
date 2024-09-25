@@ -23,8 +23,7 @@
 
 /*  importacoes de estilo do main  */
 
-@import url("../catalogo/conteudo__principal.css");
-
+@import url("../formulario/formulario__principal.css");
 
 /*  importacoes de estilo do footer */
 
@@ -83,7 +82,4 @@
     
     
 }
-
-
-
 

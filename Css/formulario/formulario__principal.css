@@ -1,0 +1,345 @@
+.formulario__logo {
+
+    width: 100px;
+
+}
+
+.formulario__titulo {
+
+    margin: 25px 0px  25px 0px;
+    font-weight: bold;
+    font-size: 1.9em; 
+   
+
+}
+
+.formulario__subtitulo {
+
+    font-weight: 400;
+    font-size: 1em; 
+    opacity: 75%;
+
+}
+
+.formulario__subtitulo--destacar {
+
+    color: var(--corSecundaria-01);
+    opacity: 100%;
+    font-weight: bold;
+
+}
+
+.linhaDecoracao {
+
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    height: 4px;
+    background: var(--corPagina);
+
+}
+
+.visualizar__ProdutosAdicionados {
+
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 4em;
+    border-radius: 10px;
+    margin: 50px 0px 100px 0px;
+
+}
+
+.visualizar__ProdutosAdicionados__titulo {
+
+    margin: 0px 0px 5px 0px;
+    font-weight: 700;
+    font-size: 1.2em; 
+    padding: 1em 1.5em;
+   
+}
+
+.adicionar__Produtos {
+
+    background: #222222;
+    display: flex;
+    flex-direction: column;
+    margin: 0em 0em 0em 0em;
+    border-radius: 10px;
+
+}
+
+.adicionar__Produtos__titulo {
+
+    margin: 0px 0px 5px 0px;
+    font-weight: 700;
+    font-size: 1.2em; 
+    padding: 1em 1.5em;
+
+}
+
+#tipo__deferencial {
+
+    width: 15%;
+    margin: 0em 2em;
+    padding: 1em 0em;
+    border-radius: 10px;
+    border: none;
+    background: var(--corPagina);
+    color: white;
+
+}
+
+#tipo__deferencial {
+
+    padding: 1em 1em;
+
+}
+
+
+#adicionar__Produtos__formulario {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.adicionar__Produtos__formulario__tipo__titulo {
+
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 1em; 
+    padding: 0em 2em;
+
+
+}
+
+.adicionar__Produtos__formulario--nomeDoProduto {
+
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 1em; 
+    padding: 0em 2em;
+    
+
+}
+
+#ProdutoNome {
+
+    width: 50%;
+    margin: 0em 2em;
+    padding: 1em 0em;
+    border-radius: 10px;
+    border: none;
+    background: var(--corPagina);
+
+}
+
+#ProdutoNome::placeholder {
+
+    padding: 0em 1em;
+
+}
+
+#descricao_produto {
+
+    width: 50%;
+    margin: 0em 2em;
+    padding: 1em 0em;
+    border-radius: 10px;
+    border: none;
+    background: var(--corPagina);
+
+}
+
+#ProdutoImage {
+
+    width: 50%;
+    margin: 0em 2.3em;
+    padding: 1em 0em;
+    border: none;
+    
+
+}
+
+#descricao_produto::placeholder {
+
+    padding: 0em 1em;
+
+}
+
+#ValorNome {
+
+    width: 50%;
+    margin: 0em 2em;
+    padding: 1em 0em;
+    border-radius: 10px;
+    border: none;
+    background: var(--corPagina);
+
+}
+
+#ValorNome::placeholder {
+
+    padding: 0em 1em;
+
+}
+
+.adicionar__Produtos__formulario--nomeDoProduto__adicionar {
+
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    font-size: 0.9em; 
+    padding: 0em 2em;
+    color: var(--corSecundaria-02);
+    background: transparent;
+    border: none;
+    cursor: pointer; 
+
+}
+
+
+.adicionar__Produtos__formulario--nomeDoProduto__adicionar:hover {
+
+    color: var(--corSecundaria-01);
+   
+}
+
+input[type="text"], 
+input[type="number"], 
+textarea, 
+select {
+     color: white; 
+     padding: 10px; 
+     font-size: 16px; 
+    
+}
+
+
+
+
+
+
+.titulos__adiicionado {
+
+    display: flex;
+    margin: 0px 0px 35px 25px;
+
+}
+
+.nome__doProduto__adicionado {
+
+    color: var(--corSecundaria-03);
+
+}
+
+.TipoCategoria__adicionado {
+
+    color: var(--corSecundaria-03);
+    margin: 0px 0px 0px 5px;
+
+}
+
+.imagemAdicionada {
+
+    padding: 0em 2em;
+
+}
+
+.informacoesDoProdutoAdicionado {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.div__embaixo {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 20px 0px;
+    color: var(--corSecundaria-03);;
+    align-items: center;
+
+}
+
+.statusProduto {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 0px 0px 125px;
+
+}
+
+.circulo {
+
+    width: 5px;
+    height: 5px;
+    background: green;
+    border-radius: 50%;
+
+}
+
+.miniLinhaDecoracao{
+
+    opacity: 50%;
+    width: 1px;
+    height: 15px;
+    background: white; 
+
+
+}
+
+.visualizar {
+
+    color: var(--corSecundaria-02)
+
+}
+
+.menuDeOpcoes {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0em 2em;
+
+}
+
+.editar__produto {
+
+    background: var(--corSecundaria-02);
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8em;
+    
+}
+
+.excluir__produto {
+
+    background: var(--corSecundaria-02);
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8em;
+
+
+}
+
+.editar__produto:hover {
+
+    background: var(--corSecundaria-01);
+
+}
+
+.excluir__produto:hover {
+
+    background: var(--corSecundaria-01);
+    
+}

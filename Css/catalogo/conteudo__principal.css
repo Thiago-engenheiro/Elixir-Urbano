@@ -640,7 +640,11 @@
 
 }
 
+.ativo {
 
+    background: var(--corSecundaria-02);
+
+}
 
 
 /* Remova as definições de largura e altura fixas */

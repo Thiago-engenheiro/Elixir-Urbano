@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elixir Urbano</title>
+
+    <link rel="stylesheet" type="text/css" href="../Css/Global/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="../Css/Global/variables.css">
+    <link rel="stylesheet" type="text/css" href="../Css/Global/paginaInteira.css">
+    
+    <link rel="stylesheet" type="text/css" href="../Css/formulario/base.css">
+  
+</head>
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+<body class="PaginaInteira"></body>
+
+    <section class="pagina">
+
+        <header class="cabecalho">
+
+            <header class="cabecalho">
+
+                <section class="cabecalho__acoes"> 
+
+                    <div class="acoes__navegacao">
+
+                        <nav class="navegacao__menu esconder">
+
+                            <a class="menu__intens" href="../index.html">
+        
+                                Home
+        
+                            </a>
+        
+                            <a class="menu__intens" href="../Html/catalago.html">
+        
+                                Catalago 
+        
+                            </a>
+        
+                            <a class="menu__intens">
+        
+                                Contato
+        
+                            </a>
+        
+                            <a class="menu__intens">
+        
+                                Sobre
+        
+                            </a>
+        
+                        </nav>
+
+                        <a class="navegacao__carrinho" href="#">
+
+                            <img class="carrinho__imagem" src="../Imagens/NoCodigo/Global/Global__header/Icone - carrinho de compras.png" alt="Icone compras">
+
+                            <img class="carrinho__imagem esconder" src="../Imagens/NoCodigo/Global/Global__header/Icone - carrinho de compras__preto.png" alt="Icone compras">
+
+                            <p class="carrinho__texto">
+                
+                                Vazio
+                    
+                            </p>
+                
+                        </a>
+
+                    </div>
+
+                    <div class="navegacao__caixa__de__pesquisa esconder">
+
+                        <input type="search" class="caixa__de__pesquisa__caixa" placeholder="O que você procura?">
+
+                        <img class="caixa__de__pesquisa__imagem" src="../Imagens/NoCodigo/Global/Global__header/Lupa.png" alt="Icone lupa">
+
+                    </div>
+    
+                    <div class="acoes__icones">
+
+                        <div class="icones__notificacao">
+
+                            <img src="../Imagens/NoCodigo/Global/Global__header/notificacao.png" alt="icone de notificação">
+        
+                        </div>
+        
+                        <a class="icones__usuario" href="../Html/formuario.html">
+        
+                            <img src="../Imagens/NoCodigo/Global/Global__header/Perfil.jpg" alt="icone do usuario">
+        
+                        </a>
+        
+                        <a class="icones__logotipo" href="../index.html">
+        
+                            <img src="../Imagens/NoCodigo/Global/Global__header/Logotipo.png" alt="logotipo Elixir Urbano">
+        
+                        </a>
+
+                    </div>
+
+                </section>
+ 
+        </header>
+
+        <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+        <main class="ConteudoPrincipal">
+
+            <img class="formulario__logo" src="../Imagens/NoCodigo/Global/Global__header/Logotipo.png" alt="logotipo Elixir Urbano">
+
+            <h1 class="formulario__titulo">
+
+                Gerenciar produtos
+
+            </h1>
+
+            <p class="formulario__subtitulo">
+
+                Gerencie seus produtos no <strong class="formulario__subtitulo--destacar"> Elixir Urbano.</strong> </h2>
+
+            </p>
+
+            <section class="visualizar__ProdutosAdicionados">
+
+                <h3 class="visualizar__ProdutosAdicionados__titulo">
+
+                    Produtos Adicionados
+
+                </h3>
+
+                <div class="linhaDecoracao"></div>
+
+                <div id="listaProdutos">
+
+
+                </div>
+
+            </section>
+
+            <section class="adicionar__Produtos">
+
+                <h3 class="adicionar__Produtos__titulo">
+
+                    Adicionar produto
+
+                </h3>
+
+                <div class="linhaDecoracao"></div>
+
+                <form id="adicionar__Produtos__formulario"> 
+
+                    <p class="adicionar__Produtos__formulario__tipo__titulo">
+
+                       Categoria do produto
+
+                    </p>
+
+                    <select id="tipo__deferencial" name="tipo__deferencial">
+
+                        <option value="1">Sem categoria</option>
+                        <option value="2">Novo</option>
+                        <option value="3">Destaque</option>
+                        <option value="4">Promoção</option>
+
+                    </select>
+
+                    <label class="adicionar__Produtos__formulario--nomeDoProduto" for="ProdutoNome">Nome do produto ---  ( max 30 caracteres )</label>
+                    <input type="text" id="ProdutoNome" name="ProdutoNome" rows="2" cols="30" placeholder=" nome do produto..." required>
+
+                    <label class="adicionar__Produtos__formulario--nomeDoProduto" for="descricao_produto">Descrição do produto ---  ( max 100 caracteres )</label>
+                    <textarea id="descricao_produto" name="descricao_produto" rows="4" cols="100" placeholder="Escreva a descrição do produto aqui..." required></textarea>
+
+                    <label class="adicionar__Produtos__formulario--nomeDoProduto" for="ProdutoImage">Imagem do produto:</label>
+                    <input type="file" id="ProdutoImage" name="ProdutoImage" accept="image/*" required>
+
+                    <label class="adicionar__Produtos__formulario--nomeDoProduto" for="ValorNome">Valor produto:</label>
+                    <input type="text" id="ValorNome" name="ValorNome" placeholder="Valor do produto..." required>
+
+                    <div class="linhaDecoracao"></div>
+
+                    <button class="adicionar__Produtos__formulario--nomeDoProduto__adicionar" type="submit">Adicionar</button>
+
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer class="indexRodape">
+
+            <section class="rodape">
+
+                <div class="rodape__apresentacao">
+
+                    <img class="rodape__apresentacao__logo" src="../Imagens/NoCodigo/Global/Global__header/Logotipo.png" alt="logotipo Elixir Urbano">
+
+                    <h5 class="rodape__apresentacao__titulo">
+
+                        Elixir Urbano
+
+                    </h5>
+
+                    <button class="rodape__apresentacao__inscrever">
+
+                        Inscrever
+
+                    </button>
+
+                </div>
+
+                <div class="rodape__menu">
+
+                    <ul class="rodape__menu__navegacao">
+
+                        <li class="rodape__menu__navegacao__links">
+
+                            <h6 class="rodape__navegacao__links__titulo">
+
+                                Acesso rapido
+
+                            </h6>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Home
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Catalogo 
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                contato
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                sobre
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                serviços 
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                contato
+
+                            </a>
+
+                        </li>
+
+                        <li class="rodape__menu__navegacao__links">
+
+                            <h6 class="rodape__navegacao__links__titulo">
+
+                                Produtos
+
+                            </h6>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Bebidas
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Doces
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Pacotes 
+
+                            </a>
+
+                            
+
+                        </li>
+
+                        <li class="rodape__menu__navegacao__links">
+
+                            <h6 class="rodape__navegacao__links__titulo">
+
+                                Parceiros 
+
+                            </h6>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Coca-Cola Company
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                PepsiCo
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Anheuser-Busch InBev
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Diageo
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Nestlé 
+
+                            </a>
+
+                            <a class="rodape__navegacao__links__link">
+
+                                Heineken N.V
+
+                            </a>
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="rodape__endereco">
+
+                    <h6 class="rodape__endereco__titulo">
+
+                        Ache-nos
+
+
+                    </h6>
+
+                    <p class="rodape__endereco__texto">
+
+                        Brasil: Avenida das Flores, 1234
+                        Bairro Jardim das Palmeiras
+                        São Paulo, SP - 04567-890
+                        Brasil
+
+                    </p>
+
+                    <p class="rodape__endereco__texto">
+
+                        Estados Unidos: 4567 Oakwood Avenue
+                        Suite 890
+                        Los Angeles, CA 90012
+                        USA
+
+                    </p>
+
+                </div>
+
+            </section>
+ 
+            <section class="rodapeAutor">
+
+                <p class="rodapeAutor__texto">
+
+                    Desenvolvido por Thiago Abraao.  Projeto fictício sem fins comerciais.
+
+                </p>
+
+            </section>
+         
+        </footer>
+
+    </section>
+
+    </section>
+
+    <section class="menuLateral esconder">
+
+        <div class="">
+
+            <div class="menuLateral__logotipo">
+
+                <img src="../Imagens/NoCodigo/Global/Menu__lateral/Logotipo__preto.png" alt="logotipo Elixir Urbano">
+
+            </div>
+
+            <!-- ------------------------- Esse trecho de codigo foi tirado do site https://freefrontend.com e um botao com animação quando clicado que se chama "Hamburger Menu" -------------------------------------------- -->
+            
+            <!-- ------------------------------------------------------------------------------------ Autor:  Mikael Ainalem ------------------------------------------------------------------------------------------------- -->
+            
+            <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+                <svg width="70" height="70" viewBox="0 0 100 100">
+                  <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                  <path class="line line2" d="M 20,50 H 80" />
+                  <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+
+                <ul class="menu__hamburguerExpandido" onclick="event.stopPropagation()">
+
+                    <ul class="hamburguerExpandido__idioma">
+
+                        <input type="checkbox" id="menu__idioma" class="checkbox__botao">
+                        
+                        <label for="menu__idioma" class="idioma__intens">
+
+                            <img class="intens__seta" 
+                                 src="../Imagens/NoCodigo/Global/Menu__lateral/Seta--branca--menu--linguagem.png" 
+                                 alt="icone__seta">
+
+                            Linguagem
+
+                        </label>
+
+                            <ul class="menuHamburguer__02">
+
+                                <li class="botao__02">
+
+                                    <img class="botao__imagem" src="../Imagens/NoCodigo/Global/Menu__hambuguer/Brasil.png" alt="imagem do pais">
+
+                                    Portugues (Brasil)
+
+                                </li>
+
+                                <li class="botao__02">
+
+                                    <img class="botao__imagem" src="../Imagens/NoCodigo/Global/Menu__hambuguer/EUA.png" alt="imagem do pais">
+
+                                    Ingles (EUA)
+
+                                </li>
+
+                            </ul>
+                        
+                    </ul>
+
+                    <div class="expandido__selecoes">
+    
+                        <li class="expandido__lista">
+    
+                            <label class="alternar">
+    
+                                <input class="alternar-selecao" type="checkbox" id="alternar-cor">
+                                <div class="alternar-escolha"></div>
+    
+                            </label>
+    
+                        <li class="expandido__lista">
+    
+                            <label class="escuro__claro" for="alternar-cor">
+    
+                                Modo claro
+    
+                            </label>
+
+                        </li>
+
+                    </div>
+
+                    <div class="expandido__selecoes">
+
+                        <li class="expandido__lista">
+    
+                            <label class="alternar">
+    
+                                <input class="alternar-selecao" type="checkbox" id="alternar-contraste">
+                                <div class="alternar-escolha"></div>
+    
+                            </label>
+    
+                        <li class="expandido__lista">
+    
+                            <label class="expandido__acessibilidade" for="alternar-contraste">
+    
+                                Modo alto contraste 
+    
+                            </label>
+    
+                        </li>
+
+                    </div>
+    
+                </ul>
+
+            </button>
+            
+            <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+            <div class="redes__socias">
+
+                <div class="socias__imagem">
+
+                    <img src="../Imagens/NoCodigo/Global/Menu__lateral/facebook.png" alt="icone facebook">
+    
+                </div>
+
+                <div class="socias__imagem">
+
+                    <img src="../Imagens/NoCodigo/Global/Menu__lateral/Instagram.png" alt="icone instagram">
+    
+                </div>
+
+                <div class="socias__imagem">
+
+                    <img src="../Imagens/NoCodigo/Global/Menu__lateral/Youtube.png" alt="Icone youtube">
+    
+                </div>
+
+            </div>
+
+            <p class="lateral__paragrafo ">
+
+                Nosso Portfólio de Bebidas
+
+            </p>
+
+            <div class="lateral__setas">
+
+                <button class="setas__subir">
+
+                    <img class="subir__imagem" src="../Imagens/NoCodigo/Global/Menu__lateral/Seta.png" alt="menu de ferramentas">
+    
+                </button>
+
+                <button class="setas__descer">
+
+                    <img class="descer__imagem" src="../Imagens/NoCodigo/Global/Menu__lateral/Seta.png" alt="menu de ferramentas">
+    
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="../JavaScript/Main/Nova pasta/formlario.js"></script>
+
+</body>
+

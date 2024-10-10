@@ -99,6 +99,8 @@ function criarProdutoItem(produto) {
         produtosExistentes = produtosExistentes.filter(p => p.nome !== produto.nome);
         localStorage.setItem('produtos', JSON.stringify(produtosExistentes));
 
+    
+
     });
 
     return produtoDiv;
@@ -138,3 +140,10 @@ window.onload = function() {
     console.log("Carregando produtos...");
     carregarProdutos();
   }
+
+
+
+function criarProdutoItem() {
+
+
+}
